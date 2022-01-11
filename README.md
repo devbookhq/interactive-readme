@@ -1,4 +1,4 @@
-# Interactive Readmes with Devbook
+# lnteractive Readmes with Devbook
 
 This is an example of how Devbook can be used to build interactive readmes.
 
@@ -16,7 +16,7 @@ Really. Devbook can serialize and commit this readme to a simple markdown `READM
 
 ## It has multiplayer!
 
-Devbook support collaborative editing. Open this URL in another window and you'll see each other's cursor.
+Devbook supports collaborative editing. Open this URL in another window and you'll see a new cursor.
 
 Each session has it's own VM.
 
@@ -24,8 +24,9 @@ Each session has it's own VM.
 
 The readme we are about to write is for a React library called [Splitter](https://github.com/DevbookHQ/splitter). Splitter is a React component that allows you to split and resize view. We will use the `nextjs` template to show how Splitter works.
 
-# \
-Splitter
+---
+
+# Splitter
 
 Splitter is a React component that allows you to split views into resizable panels. Similar to tabs in Visual Studio Code, for example.
 
@@ -37,11 +38,11 @@ npm i @devbookhq/splitter
 
 ## Interactive Demo
 
-> Make sure to run the above shell cell first
+> Make sure to run the above shell command first
 
-<meta cell-type="iframe" src="https://3000-cky7n1gxo23374808ij62d9h33y_1ad1629e-f932e410b823.o.usedevbook.com/">
+<meta cell-type="iframe" src="https://3000-cky7n1gxo23374808ij62d9h33y_1ad1629e-2083b784ec38.o.usedevbook.com/">
 
-The demo you've just interacted with, in the above iframe, is running in the VM attached to this Devbook document.
+The demo you've just interacted with, in the  iframe above, is running in the VM attached to this Devbook document.
 
 You can customize it however you want: Open the `components/Horizontal.tsx` file and change the "Tile 1" text to "Tile 0". The iframe will update.
 
@@ -53,9 +54,11 @@ When you add a Next.js code cell (by pressing '/'), Devbook automatically create
 
 Notice that we are basically creating an interactive readme with a built-in Next.js app without creting any Codesandbox/Replit/StackBlitz/etc project. We didn't have to leave Devbook to write or edit the code and run it.
 
+---
+
 ### Horizontal split
 
-```tsx {"cell-id":"mxbsj52b","document-env-id":"1ad1629e","template-id":"nextjs-v11-components","cell-name":"Untitled"}
+```tsx {"cell-id":"vlbhf1i3","document-env-id":"1ad1629e","template-id":"nextjs-v11-components","cell-name":"cc.tsx"}
 import Splitter, { SplitDirection } from '@devbookhq/splitter'
 
 function MyComponent() {
@@ -70,9 +73,9 @@ function MyComponent() {
 export default MyComponent
 ```
 
-<meta cell-type="iframe" src="https://3000-cky7n1gxo23374808ij62d9h33y_1ad1629e-f932e410b823.o.usedevbook.com/Untitled">### Vertical split
+<meta cell-type="iframe" src="https://3000-cky7n1gxo23374808ij62d9h33y_1ad1629e-d030d1015c26.o.usedevbook.com/cc">### Vertical split
 
-```tsx {"cell-id":"q298mw5j","document-env-id":"1ad1629e","template-id":"nextjs-v11-components","cell-name":"Untitled-u7c"}
+```tsx {"cell-id":"3qmsqjdt","document-env-id":"1ad1629e","template-id":"nextjs-v11-components","cell-name":"cc-99e.tsx"}
 import Splitter, { SplitDirection } from '@devbookhq/splitter'
 
 function MyComponent() {
@@ -89,4 +92,6 @@ function MyComponent() {
 export default MyComponent
 ```
 
-<meta cell-type="iframe" src="https://3000-cky7n1gxo23374808ij62d9h33y_1ad1629e-f932e410b823.o.usedevbook.com/Untitled-u7c">
+<meta cell-type="iframe" src="https://3000-cky7n1gxo23374808ij62d9h33y_1ad1629e-d030d1015c26.o.usedevbook.com/cc-99e">
+
+ 
