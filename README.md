@@ -12,11 +12,11 @@ Every piece of code here can edited and executed. You can deploy any conainer to
 
 ## It's all markdown!
 
-Really. Devbook can serialize and commit this readme to a simple markdown `README`file in your repo. Look at <https://github.com/DevbookHQ/interactive-readme>. The commited readme is this Devbook. Of course, Devbook can pull the readme from your repo as well.
+Really. Devbook can serialize and commit this readme to a simple markdown `README` file in your repo. Look at <https://github.com/DevbookHQ/interactive-readme>. The commited readme is this Devbook. Of course, Devbook can pull the readme from your repo as well.
 
 ## It has multiplayer!
 
-Devbook support collaborative editing. Open this URL in another window and you'll see each other's cursor. 
+Devbook support collaborative editing. Open this URL in another window and you'll see each other's cursor.
 
 Each session has it's own VM.
 
@@ -24,9 +24,8 @@ Each session has it's own VM.
 
 The readme we are about to write is for a React library called [Splitter](https://github.com/DevbookHQ/splitter). Splitter is a React component that allows you to split and resize view. We will use the `nextjs` template to show how Splitter works.
 
----
-
-# Splitter
+# \
+Splitter
 
 Splitter is a React component that allows you to split views into resizable panels. Similar to tabs in Visual Studio Code, for example.
 
@@ -53,8 +52,6 @@ You can customize it however you want: Open the `components/Horizontal.tsx` file
 When you add a Next.js code cell (by pressing '/'), Devbook automatically creates an underlying file in the `pages` directory so you can easily render it via iframe.
 
 Notice that we are basically creating an interactive readme with a built-in Next.js app without creting any Codesandbox/Replit/StackBlitz/etc project. We didn't have to leave Devbook to write or edit the code and run it.
-
----
 
 ### Horizontal split
 
