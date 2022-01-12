@@ -8,7 +8,7 @@ Readmes built with Devbooks are great because they allow developers to play with
 
 ## It's interactive!
 
-Every piece of code here can edited and executed. You can deploy any conainer to the attached VM  and run them alongside. In this readme, we are using a prebuilt Next.js template. You can see the environment running in the left sidebar.
+Every piece of code here can edited and executed. You can deploy any container to the attached VM  and run them alongside. In this readme, we are using a prebuilt Next.js template. You can see the environment running in the left sidebar.
 
 ## It's all markdown!
 
@@ -48,7 +48,7 @@ You can customize it however you want: Open the `components/Horizontal.tsx` file
 
 ## Examples
 
-**Each of the following code snippets is an actual file the `pages` directory that you can edit.**
+**Each of the following code cells is an actual file the `pages` directory that you can edit. Or edit the code cell directly here.**
 
 When you add a Next.js code cell (by pressing '/'), Devbook automatically creates an underlying file in the `pages` directory so you can easily render it via iframe.
 
@@ -58,7 +58,7 @@ Notice that we are basically creating an interactive readme with a built-in Next
 
 ### Horizontal split
 
-```tsx {"cell-id":"vlbhf1i3","document-env-id":"1ad1629e","template-id":"nextjs-v11-components","cell-name":"cc.tsx"}
+```tsx {"cell-id":"09zcxpwy","cell-name":"cc.tsx","document-env-id":"1ad1629e","template-id":"nextjs-v11-components"}
 import Splitter, { SplitDirection } from '@devbookhq/splitter'
 
 function MyComponent() {
@@ -73,9 +73,10 @@ function MyComponent() {
 export default MyComponent
 ```
 
-<meta cell-type="iframe" src="https://3000-cky7n1gxo23374808ij62d9h33y_1ad1629e-d030d1015c26.o.usedevbook.com/cc">### Vertical split
+<meta cell-type="iframe" src="https://3000-cky7n1gxo23374808ij62d9h33y_1ad1629e-e53ceeb549dc.o.usedevbook.com/cc">
+### Vertical split
 
-```tsx {"cell-id":"3qmsqjdt","document-env-id":"1ad1629e","template-id":"nextjs-v11-components","cell-name":"cc-99e.tsx"}
+```tsx {"cell-id":"efmyjeme","cell-name":"cc-a3j.tsx","document-env-id":"1ad1629e","template-id":"nextjs-v11-components"}
 import Splitter, { SplitDirection } from '@devbookhq/splitter'
 
 function MyComponent() {
@@ -92,6 +93,46 @@ function MyComponent() {
 export default MyComponent
 ```
 
-<meta cell-type="iframe" src="https://3000-cky7n1gxo23374808ij62d9h33y_1ad1629e-d030d1015c26.o.usedevbook.com/cc-99e">
+<meta cell-type="iframe" src="https://3000-cky7n1gxo23374808ij62d9h33y_1ad1629e-e53ceeb549dc.o.usedevbook.com/cc-a3j">
 
  
+
+```sh {"template-id":"nodejs-v16"}
+npm i node-fetch
+```
+
+```ts {"cell-id":"8q0vf70w","cell-name":"cc.js","document-env-id":"6f521b19","template-id":"nodejs-v16"}
+// import fetch from 'node-fetch';
+
+// const response = await fetch('https://github.com/');
+// const body = await response.text();
+
+// console.log(body);
+
+// import http from 'http';
+
+// function handler(req, res) {
+//   res.writeHead(200);
+//   res.end('Hello World!');
+// }
+
+// const server = http.createServer(handler);
+// setTimeout(() => {
+//   // console.log('hello')
+// }, 5000)
+
+// setTimeout(() => {
+//   console.log('Closing server...');
+//   server.close();
+//   console.log('Closed');
+// }, 1000 * 60);
+
+// console.log('Starting server...');
+// server.listen(3000);
+
+console.log('Hello world')
+```
+
+```sh {"template-id":"nodejs-v16","run-on-start":"true"}
+node src/cc.js
+```
