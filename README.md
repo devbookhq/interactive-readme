@@ -42,6 +42,7 @@ npm i @devbookhq/splitter
 
 <meta cell-type="iframe" src="https://3000-cky7n1gxo23374808ij62d9h33y_1ad1629e-2083b784ec38.o.usedevbook.com/">
 
+
 The demo you've just interacted with, in the  iframe above, is running in the VM attached to this Devbook document.
 
 You can customize it however you want: Open the `components/Horizontal.tsx` file and change the "Tile 1" text to "Tile 0". The iframe will update.
@@ -74,6 +75,7 @@ export default MyComponent
 ```
 
 <meta cell-type="iframe" src="https://3000-cky7n1gxo23374808ij62d9h33y_1ad1629e-e53ceeb549dc.o.usedevbook.com/cc">
+
 ### Vertical split
 
 ```tsx {"cell-id":"efmyjeme","cell-name":"cc-a3j.tsx","document-env-id":"1ad1629e","template-id":"nextjs-v11-components"}
@@ -94,6 +96,7 @@ export default MyComponent
 ```
 
 <meta cell-type="iframe" src="https://3000-cky7n1gxo23374808ij62d9h33y_1ad1629e-e53ceeb549dc.o.usedevbook.com/cc-a3j">
+
 
  
 
