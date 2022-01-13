@@ -24,6 +24,8 @@ Each session has it's own VM.
 
 The readme we are about to write is for a React library called [Splitter](https://github.com/DevbookHQ/splitter). Splitter is a React component that allows you to split and resize view. We will use the `nextjs` template to show how Splitter works.
 
+---
+
 # Splitter
 
 Splitter is a React component that allows you to split views into resizable panels. Similar to tabs in Visual Studio Code, for example.
