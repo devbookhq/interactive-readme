@@ -2,7 +2,7 @@
 
 This is an example of how Devbook can be used to build interactive readmes.
 
-**This readme has attached a full-fledged VM to it that both the author and a reader can use.**
+**This readme has attached a full-fledged VM to it that both the author and the reader can use.**
 
 Readmes built with Devbooks are great because they allow developers to play with the third-party libraries and packages without any setup. They can do it right inside the Devbook.
 
@@ -24,15 +24,13 @@ Each session has it's own VM.
 
 The readme we are about to write is for a React library called [Splitter](https://github.com/DevbookHQ/splitter). Splitter is a React component that allows you to split and resize view. We will use the `nextjs` template to show how Splitter works.
 
----
-
 # Splitter
 
 Splitter is a React component that allows you to split views into resizable panels. Similar to tabs in Visual Studio Code, for example.
 
 ## Installation
 
-```sh {"template-id":"nextjs-v11-components"}
+```sh {"template-id":"nextjs-v11-components","run-on-start":"true"}
 npm i @devbookhq/splitter
 ```
 
@@ -97,45 +95,3 @@ export default MyComponent
 
 <meta cell-type="iframe" src="https://3000-cky7n1gxo23374808ij62d9h33y_1ad1629e-e53ceeb549dc.o.usedevbook.com/cc-a3j">
 
-
- 
-
-```sh {"template-id":"nodejs-v16"}
-npm i node-fetch
-```
-
-```ts {"cell-id":"8q0vf70w","cell-name":"cc.js","document-env-id":"6f521b19","template-id":"nodejs-v16"}
-// import fetch from 'node-fetch';
-
-// const response = await fetch('https://github.com/');
-// const body = await response.text();
-
-// console.log(body);
-
-// import http from 'http';
-
-// function handler(req, res) {
-//   res.writeHead(200);
-//   res.end('Hello World!');
-// }
-
-// const server = http.createServer(handler);
-// setTimeout(() => {
-//   // console.log('hello')
-// }, 5000)
-
-// setTimeout(() => {
-//   console.log('Closing server...');
-//   server.close();
-//   console.log('Closed');
-// }, 1000 * 60);
-
-// console.log('Starting server...');
-// server.listen(3000);
-
-console.log('Hello world')
-```
-
-```sh {"template-id":"nodejs-v16","run-on-start":"true"}
-node src/cc.js
-```
